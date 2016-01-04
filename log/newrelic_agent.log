@@ -1,0 +1,77 @@
+# Logfile created on 2016-01-02 11:38:54 +0530 by logger.rb/47272
+[2016-01-02 11:38:54 +0530 bvc9-Vostro-1520 (9054)] INFO : Starting the New Relic agent in "development" environment.
+[2016-01-02 11:38:54 +0530 bvc9-Vostro-1520 (9054)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2016-01-02 11:38:54 +0530 bvc9-Vostro-1520 (9054)] WARN : No configuration file found. Working directory = /home/bvc-9/simple_cms1/app
+[2016-01-02 11:38:54 +0530 bvc9-Vostro-1520 (9054)] WARN : Looked in these locations (based on defaults): /home/bvc-9/simple_cms1/app/config/newrelic.yml, /home/bvc-9/simple_cms1/app/newrelic.yml, /home/bvc-9/simple_cms1/app/config/newrelic.yml, /home/bvc-9/simple_cms1/app/newrelic.yml, /home/bvc-9/.newrelic/newrelic.yml, /home/bvc-9/newrelic.yml
+[2016-01-02 11:38:54 +0530 bvc9-Vostro-1520 (9054)] INFO : Environment: development
+[2016-01-02 11:38:54 +0530 bvc9-Vostro-1520 (9054)] INFO : No known dispatcher detected.
+[2016-01-02 11:38:54 +0530 bvc9-Vostro-1520 (9054)] INFO : Application: development
+[2016-01-02 11:38:54 +0530 bvc9-Vostro-1520 (9054)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2016-01-02 11:38:54 +0530 bvc9-Vostro-1520 (9054)] INFO : Installing Net instrumentation
+[2016-01-02 11:38:54 +0530 bvc9-Vostro-1520 (9054)] INFO : Installing ActiveRecord 4 instrumentation
+[2016-01-02 11:38:54 +0530 bvc9-Vostro-1520 (9054)] INFO : Installing Rails 3+ middleware instrumentation
+[2016-01-02 11:38:54 +0530 bvc9-Vostro-1520 (9054)] INFO : Installing ActiveJob instrumentation
+[2016-01-02 11:38:54 +0530 bvc9-Vostro-1520 (9054)] INFO : Installing deferred Rack::Builder instrumentation
+[2016-01-02 11:38:54 +0530 bvc9-Vostro-1520 (9054)] INFO : Installing Rack::Builder middleware instrumentation
+[2016-01-02 11:38:54 +0530 bvc9-Vostro-1520 (9054)] INFO : Installing Rails 4 view instrumentation
+[2016-01-02 11:38:54 +0530 bvc9-Vostro-1520 (9054)] INFO : Installing Rails 4 Error instrumentation
+[2016-01-02 11:38:55 +0530 bvc9-Vostro-1520 (9054)] INFO : Installing Rails 4 Controller instrumentation
+[2016-01-02 11:38:55 +0530 bvc9-Vostro-1520 (9054)] INFO : Finished instrumentation
+[2016-01-02 11:58:41 +0530 bvc9-Vostro-1520 (10068)] INFO : Starting the New Relic agent in "development" environment.
+[2016-01-02 11:58:41 +0530 bvc9-Vostro-1520 (10068)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2016-01-02 11:58:41 +0530 bvc9-Vostro-1520 (10068)] WARN : No configuration file found. Working directory = /home/bvc-9/simple_cms1/app
+[2016-01-02 11:58:41 +0530 bvc9-Vostro-1520 (10068)] WARN : Looked in these locations (based on defaults): /home/bvc-9/simple_cms1/app/config/newrelic.yml, /home/bvc-9/simple_cms1/app/newrelic.yml, /home/bvc-9/simple_cms1/app/config/newrelic.yml, /home/bvc-9/simple_cms1/app/newrelic.yml, /home/bvc-9/.newrelic/newrelic.yml, /home/bvc-9/newrelic.yml
+[2016-01-02 11:58:41 +0530 bvc9-Vostro-1520 (10068)] INFO : Environment: development
+[2016-01-02 11:58:41 +0530 bvc9-Vostro-1520 (10068)] INFO : No known dispatcher detected.
+[2016-01-02 11:58:41 +0530 bvc9-Vostro-1520 (10068)] INFO : Application: development
+[2016-01-02 11:58:41 +0530 bvc9-Vostro-1520 (10068)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2016-01-02 11:58:41 +0530 bvc9-Vostro-1520 (10068)] INFO : Installing Net instrumentation
+[2016-01-02 11:58:41 +0530 bvc9-Vostro-1520 (10068)] INFO : Installing ActiveRecord 4 instrumentation
+[2016-01-02 11:58:41 +0530 bvc9-Vostro-1520 (10068)] INFO : Installing Rails 3+ middleware instrumentation
+[2016-01-02 11:58:41 +0530 bvc9-Vostro-1520 (10068)] INFO : Installing ActiveJob instrumentation
+[2016-01-02 11:58:41 +0530 bvc9-Vostro-1520 (10068)] INFO : Installing deferred Rack::Builder instrumentation
+[2016-01-02 11:58:41 +0530 bvc9-Vostro-1520 (10068)] INFO : Installing Rack::Builder middleware instrumentation
+[2016-01-02 11:58:41 +0530 bvc9-Vostro-1520 (10068)] INFO : Installing Rails 4 view instrumentation
+[2016-01-02 11:58:41 +0530 bvc9-Vostro-1520 (10068)] INFO : Installing Rails 4 Error instrumentation
+[2016-01-02 11:58:41 +0530 bvc9-Vostro-1520 (10068)] INFO : Installing Rails 4 Controller instrumentation
+[2016-01-02 11:58:41 +0530 bvc9-Vostro-1520 (10068)] INFO : Finished instrumentation
+[2016-01-02 12:04:39 +0530 bvc9-Vostro-1520 (10306)] INFO : Starting the New Relic agent in "development" environment.
+[2016-01-02 12:04:39 +0530 bvc9-Vostro-1520 (10306)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2016-01-02 12:04:39 +0530 bvc9-Vostro-1520 (10306)] WARN : No configuration file found. Working directory = /home/bvc-9/simple_cms1/app
+[2016-01-02 12:04:39 +0530 bvc9-Vostro-1520 (10306)] WARN : Looked in these locations (based on defaults): /home/bvc-9/simple_cms1/app/config/newrelic.yml, /home/bvc-9/simple_cms1/app/newrelic.yml, /home/bvc-9/simple_cms1/app/config/newrelic.yml, /home/bvc-9/simple_cms1/app/newrelic.yml, /home/bvc-9/.newrelic/newrelic.yml, /home/bvc-9/newrelic.yml
+[2016-01-02 12:04:39 +0530 bvc9-Vostro-1520 (10306)] INFO : Environment: development
+[2016-01-02 12:04:39 +0530 bvc9-Vostro-1520 (10306)] INFO : No known dispatcher detected.
+[2016-01-02 12:04:39 +0530 bvc9-Vostro-1520 (10306)] INFO : Application: development
+[2016-01-02 12:04:39 +0530 bvc9-Vostro-1520 (10306)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2016-01-02 12:04:39 +0530 bvc9-Vostro-1520 (10306)] INFO : Installing Net instrumentation
+[2016-01-02 12:04:39 +0530 bvc9-Vostro-1520 (10306)] INFO : Installing ActiveRecord 4 instrumentation
+[2016-01-02 12:04:39 +0530 bvc9-Vostro-1520 (10306)] INFO : Installing Rails 3+ middleware instrumentation
+[2016-01-02 12:04:39 +0530 bvc9-Vostro-1520 (10306)] INFO : Installing ActiveJob instrumentation
+[2016-01-02 12:04:39 +0530 bvc9-Vostro-1520 (10306)] INFO : Installing deferred Rack::Builder instrumentation
+[2016-01-02 12:04:39 +0530 bvc9-Vostro-1520 (10306)] INFO : Installing Rack::Builder middleware instrumentation
+[2016-01-02 12:04:39 +0530 bvc9-Vostro-1520 (10306)] INFO : Installing Rails 4 view instrumentation
+[2016-01-02 12:04:39 +0530 bvc9-Vostro-1520 (10306)] INFO : Installing Rails 4 Error instrumentation
+[2016-01-02 12:04:39 +0530 bvc9-Vostro-1520 (10306)] INFO : Installing Rails 4 Controller instrumentation
+[2016-01-02 12:04:39 +0530 bvc9-Vostro-1520 (10306)] INFO : Finished instrumentation
+[2016-01-02 12:11:06 +0530 bvc9-Vostro-1520 (10778)] INFO : Starting the New Relic agent in "development" environment.
+[2016-01-02 12:11:06 +0530 bvc9-Vostro-1520 (10778)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2016-01-02 12:11:06 +0530 bvc9-Vostro-1520 (10778)] WARN : No configuration file found. Working directory = /home/bvc-9/simple_cms1/app
+[2016-01-02 12:11:06 +0530 bvc9-Vostro-1520 (10778)] WARN : Looked in these locations (based on defaults): /home/bvc-9/simple_cms1/app/config/newrelic.yml, /home/bvc-9/simple_cms1/app/newrelic.yml, /home/bvc-9/simple_cms1/app/config/newrelic.yml, /home/bvc-9/simple_cms1/app/newrelic.yml, /home/bvc-9/.newrelic/newrelic.yml, /home/bvc-9/newrelic.yml
+[2016-01-02 12:11:06 +0530 bvc9-Vostro-1520 (10778)] INFO : Environment: development
+[2016-01-02 12:11:06 +0530 bvc9-Vostro-1520 (10778)] INFO : Dispatcher: webrick
+[2016-01-02 12:11:06 +0530 bvc9-Vostro-1520 (10778)] INFO : Application: development
+[2016-01-02 12:11:06 +0530 bvc9-Vostro-1520 (10778)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2016-01-02 12:11:06 +0530 bvc9-Vostro-1520 (10778)] INFO : Installing Net instrumentation
+[2016-01-02 12:11:06 +0530 bvc9-Vostro-1520 (10778)] INFO : Installing ActiveRecord 4 instrumentation
+[2016-01-02 12:11:07 +0530 bvc9-Vostro-1520 (10778)] INFO : Installing Rails 3+ middleware instrumentation
+[2016-01-02 12:11:07 +0530 bvc9-Vostro-1520 (10778)] INFO : Installing ActiveJob instrumentation
+[2016-01-02 12:11:07 +0530 bvc9-Vostro-1520 (10778)] INFO : Installing deferred Rack::Builder instrumentation
+[2016-01-02 12:11:07 +0530 bvc9-Vostro-1520 (10778)] INFO : Installing Rack::Builder middleware instrumentation
+[2016-01-02 12:11:07 +0530 bvc9-Vostro-1520 (10778)] INFO : Installing Rails 4 view instrumentation
+[2016-01-02 12:11:07 +0530 bvc9-Vostro-1520 (10778)] INFO : Installing Rails 4 Error instrumentation
+[2016-01-02 12:11:07 +0530 bvc9-Vostro-1520 (10778)] INFO : Installing Rails 4 Controller instrumentation
+[2016-01-02 12:11:07 +0530 bvc9-Vostro-1520 (10778)] INFO : Finished instrumentation
+[2016-01-02 12:11:07 +0530 bvc9-Vostro-1520 (10778)] INFO : Doing deferred dependency-detection before Rack startup
+[2016-01-02 12:11:13 +0530 bvc9-Vostro-1520 (10778)] ERROR : Invalid license key, please contact support@newrelic.com
+[2016-01-02 12:11:13 +0530 bvc9-Vostro-1520 (10778)] ERROR : Visit NewRelic.com to obtain a valid license key, or to upgrade your account.
+[2016-01-02 12:21:39 +0530 bvc9-Vostro-1520 (10778)] INFO : Starting Agent shutdown
