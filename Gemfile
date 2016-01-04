@@ -45,7 +45,7 @@ gem "therubyracer"
 gem "twitter-bootstrap-rails"
 gem 'newrelic_rpm'
 group :production do
-  # gem 'pg'
+  gem 'pg'
   gem 'unicorn'
   gem 'rails_12factor'
 end
