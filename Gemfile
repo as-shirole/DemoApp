@@ -15,7 +15,7 @@ gem 'mysql2', '~> 0.3.13', :group => :development
 gem 'httparty'
 gem 'sendgrid'
 gem 'jquery-validation-rails'
-
+gem 'sprockets-rails', '2.3.3'
 
 gem 'select2-rails'
 
