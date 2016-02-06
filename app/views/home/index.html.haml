@@ -6,63 +6,85 @@
         %meta{:content => "width=device-width, initial-scale=1", :name => "viewport"}
           %meta{:content => "", :name => "description"}
             %meta{:content => "", :name => "author"}
-              %title Landing Page - Start Bootstrap Theme
+              %title Resume
               %link{:href => "http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic", :rel => "stylesheet", :type => "text/css"}
               %script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"
               %script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"
   %body
-    / Navigation
     %nav.navbar.navbar-default.navbar-fixed-top.topnav{:role => "navigation"}
       .container.topnav
-        / Brand and toggle get grouped for better mobile display
         .navbar-header
           %button.navbar-toggle{"data-target" => "#bs-example-navbar-collapse-1", "data-toggle" => "collapse", :type => "button"}
             %span.sr-only Toggle navigation
             %span.icon-bar
             %span.icon-bar
             %span.icon-bar
-          %a.navbar-brand.topnav{:href => "#"} Start Bootstrap
-        / Collect the nav links, forms, and other content for toggling
+          %a.navbar-brand.topnav{:href => "#"} Resume
         #bs-example-navbar-collapse-1.collapse.navbar-collapse
           %ul.nav.navbar-nav.navbar-right
             %li
-              %a{:href => "#about"} About
+              %a{:href => "#about"} Educational Qualification
             %li
-              %a{:href => "#services"} Services
+              %a{:href => "#services"} Achivements
+            %li
+              %a{:href => "#contact"} Hobbies
+            %li
+              %a{:href => "#contact"} Experience
+            %li
+              %a{:href => "#contact"} Personal Details
             %li
               %a{:href => "#contact"} Contact
-        / /.navbar-collapse
-      / /.container
-    / Header
     %a{:name => "about"}
     .intro-header
       .container
         .row
           .col-lg-12
             .intro-message
-              %h1 Landing Page
-              %h3 A Template by Start Bootstrap
+              %h1 Akshay Shirole
+              %h3 B.E. Computer
               %hr.intro-divider
                 %ul.list-inline.intro-social-buttons
                   %li
-                    %a.btn.btn-default.btn-lg{:href => "https://twitter.com/SBootstrap"}
+                    %a.btn.btn-default.btn-lg{:href => "https://twitter.com/akshay_shirole7"}
                       %i.fa.fa-twitter.fa-fw
                       %span.network-name Twitter
                   %li
-                    %a.btn.btn-default.btn-lg{:href => "https://github.com/IronSummitMedia/startbootstrap"}
-                      %i.fa.fa-github.fa-fw
-                      %span.network-name Github
+                    %a.btn.btn-default.btn-lg{:href => "https://www.facebook.com/akshay.shirole.90"}
+                      %i.fa.fa-facebook.fa-fw
+                      %span.network-name Facebook
                   %li
-                    %a.btn.btn-default.btn-lg{:href => "#"}
+                    %a.btn.btn-default.btn-lg{:href => "https://www.linkedin.com/in/akshay-shirole-700b70a5"}
                       %i.fa.fa-linkedin.fa-fw
                       %span.network-name Linkedin
       / /.container
     / /.intro-header
     / Page Content
-    %a{:name => "services"}
     .content-section-a
       .container
+        .row.center
+          %h2
+            Educational qualification
+        %br
+        %br
         .row
+          #myCarousel.carousel.slide{"data-ride" => "carousel"}
+            %ol.carousel-indicators{:style=>"color:black;"}
+              %li.active{"data-slide-to" => "0", "data-target" => "#myCarousel"}
+              %li{"data-slide-to" => "1", "data-target" => "#myCarousel"}
+              %li{"data-slide-to" => "2", "data-target" => "#myCarousel"}
+            / Wrapper for slides
+            .carousel-inner.center{:role => "listbox"}
+              .item.active
+                .col-lg-6.col-lg-offset-3.col-xs-12
+                  %h4.center
+                    10th
+
+              .item
+                %h4.center
+                  Diploma in Computer Engineering
+              .item
+                %h4.center
+                  Bachelor of Engineering in Computer Engineering
           .col-lg-5.col-sm-6
             %hr.section-heading-spacer
               .clearfix
@@ -73,8 +95,6 @@
                 A special thanks to
                 %a{:href => "http://join.deathtothestockphoto.com/", :target => "_blank"} Death to the Stock Photo
                 for providing the photographs that you see in this template. Visit their website to become a member.
-          .col-lg-5.col-lg-offset-2.col-sm-6
-            = image_tag("ipad.png", :class=>"img img-responsive")
     / /.content-section-a
     .content-section-b
       .container
