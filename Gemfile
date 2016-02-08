@@ -19,6 +19,10 @@ gem 'sprockets-rails', '2.3.3'
 
 gem 'select2-rails'
 
+gem 'bootstrap-sass', '~> 3.3.6'
+gem "therubyracer"
+gem "less-rails" #Sprockets (what Rails 3.1 uses for its asset pipeline) supports LESS
+gem "twitter-bootstrap-rails"
 
 
 #gzip 
