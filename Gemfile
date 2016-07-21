@@ -22,7 +22,12 @@ gem 'select2-rails'
 gem 'bootstrap-sass', '~> 3.3.6'
 gem "therubyracer"
 gem "less-rails" #Sprockets (what Rails 3.1 uses for its asset pipeline) supports LESS
-gem "twitter-bootstrap-rails"
+
+#google omniauth
+gem 'omniauth'
+gem 'omniauth-google-oauth2'
+#facebook omniauth
+gem 'omniauth-facebook'
 
 
 #gzip 

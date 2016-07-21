@@ -15,6 +15,7 @@
 //= require jquery
 //= require bootstrap-sprockets
 //= require turbolinks
+//=
 //= require_tree .
 
 $(document).ready(function() {
@@ -30,4 +31,18 @@ $('a[href*="#"]:not([href="#"])').click(function() {
       }
     }
   });
+      $(".intro-header").vegas({
+	delay: 5000,
+    slides: [
+        { src: "/assets/back1.JPG" },
+        { src: "/assets/back2.JPG" },
+        { src: "/assets/back3.JPG" },
+        { src: "/assets/back4.JPG" },
+        { src: "/assets/back5.JPG" },
+        { src: "/assets/back6.jpg" },
+        { src: "/assets/back7.jpg" },
+        { src: "/assets/back8.jpg" },
+        { src: "/assets/back9.jpg" }
+    ],animation: 'kenburns'
+});
 });
