@@ -1,8 +1,8 @@
 Rails.application.routes.draw do
-  devise_for :users
+  # devise_for :users
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
-
+  devise_for :users, :controllers => { :omniauth_callbacks => "users/omniauth_callbacks" }
   # You can have the root of your site routed with "root"
   root 'home#index'
 
@@ -15,6 +15,11 @@ Rails.application.routes.draw do
   # Example resource route (maps HTTP verbs to controller actions automatically):
   #   resources :products
 
+  resources :home do
+    collection do
+      get :homepage
+    end
+  end
   # Example resource route with options:
   #   resources :products do
   #     member do

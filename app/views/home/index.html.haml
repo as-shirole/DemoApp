@@ -24,8 +24,6 @@
         #bs-example-navbar-collapse-1.collapse.navbar-collapse
           %ul.nav.navbar-nav.navbar-right
             %li
-              %a{:href => "#about"} Educational Qualification
-            %li
               %a{:href => "#services"} Achivements
             %li
               %a{:href => "#contact"} Hobbies
@@ -59,7 +57,7 @@
       / /.container
     / /.intro-header
     / Page Content
-    .content-section-a
+    .content-section-a#about
       .container
         .row.center
           %h2
@@ -68,10 +66,6 @@
         %br
         .row
           #myCarousel.carousel.slide{"data-ride" => "carousel"}
-            %ol.carousel-indicators{:style=>"color:black;"}
-              %li.active{"data-slide-to" => "0", "data-target" => "#myCarousel"}
-              %li{"data-slide-to" => "1", "data-target" => "#myCarousel"}
-              %li{"data-slide-to" => "2", "data-target" => "#myCarousel"}
             / Wrapper for slides
             .carousel-inner.center{:role => "listbox"}
               .item.active
@@ -81,36 +75,37 @@
                   %table.table.table-hovered
                     %tr
                       %th Passing Year
-                      %td 2007
-                    %tr
-                      %th Passing Year
-                      %td 2007
+                      %td 2008
                     %tr
                       %th Class
-                      %td Distingtion ()
+                      %td Distingtion
               .item
-                %h4.center
-                  Diploma in Computer Engineering
+                .col-lg-6.col-lg-offset-3.col-xs-12
+                  %h4.center
+                    Diploma in Computer Engineering
+                  %table.table.table-hovered
+                    %tr
+                      %th Passing Year
+                      %td 2011
+                    %tr
+                      %th Class
+                      %td Distingtion
               .item
                 %h4.center
                   Bachelor of Engineering in Computer Engineering
-          .col-lg-5.col-sm-6
-            %hr.section-heading-spacer
-              .clearfix
-              %h2.section-heading
-                Death to the Stock Photo:
-                %br Special Thanks
-              %p.lead
-                A special thanks to
-                %a{:href => "http://join.deathtothestockphoto.com/", :target => "_blank"} Death to the Stock Photo
-                for providing the photographs that you see in this template. Visit their website to become a member.
+                %table.table.table-hovered
+                  %tr
+                    %th Passing Year
+                    %td 2014
+                  %tr
+                    %th Class
+                    %td Higher Second Class
     / /.content-section-a
     .content-section-b
       .container
         .row
           .col-lg-5.col-lg-offset-1.col-sm-push-6.col-sm-6
             %hr.section-heading-spacer
-              .clearfix
               %h2.section-heading
                 3D Device Mockups
                 %br by PSDCovers
