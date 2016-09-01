@@ -38,6 +38,11 @@ gem 'heroku_rails_deflate', :group => :production
 #for compression
 gem 'rack-zippy'
 #gem 'selenium-webdriver', '~> 2.48', '>= 2.48.1'
+#Enabling chaching
+gem 'rack-cache'
+gem 'dalli'
+gem 'kgio'
+gem "memcachier"
 group :development, :test do
   gem 'byebug'
 end
