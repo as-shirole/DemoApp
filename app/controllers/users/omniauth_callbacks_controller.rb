@@ -20,7 +20,9 @@ class Users::OmniauthCallbacksController < Devise::OmniauthCallbacksController
     if @user.nil?
       @new_user = User.create(:name => auth.extra.raw_info.name, :email => auth.extra.raw_info.email, :provider => auth.provider,
                               :uid => auth.uid)
-                              
+      sign_in(@new_user,:bypass=>true)
+    else
+      sign_in(@user,:bypass=>true)
     end
     # if @user.persisted?
       # sign_in_and_redirect @user, :event => :authentication #this will throw if @user is not activated
@@ -30,6 +32,34 @@ class Users::OmniauthCallbacksController < Devise::OmniauthCallbacksController
       # redirect_to new_user_registration_url
     # end
   end
+
+  def google_oauth2
+    p "==========================================="
+    p request.env["omniauth.auth"]
+    p "==========================================="
+    auth = request.env["omniauth.auth"]
+    p "========================"
+    p auth.extra.raw_info
+    p "========================"
+    
+    @user = User.find_by_email(auth.extra.raw_info.email)
+    if @user.nil?
+      @new_user = User.create(:name => auth.info.name, :email => auth.extra.raw_info.email, :provider => auth.provider,
+                              :uid => auth.uid)
+      sign_in(@new_user,:bypass=>true)
+    else
+      sign_in(@user,:bypass=>true)
+    end
+    
+    p "************************"
+    p auth.info
+    p "************************"
+    p "++++++++++++++++++++++++"
+    p auth.provider
+    p auth.uid
+    p "++++++++++++++++++++++++"
+  end
+
 
   def failure
     redirect_to root_path

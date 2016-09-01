@@ -29,6 +29,8 @@ gem 'omniauth-google-oauth2'
 #facebook omniauth
 gem 'omniauth-facebook'
 
+#internationalism
+gem 'rails-i18n', '~> 4.0.0' # For 4.0.x
 
 #gzip 
 gem 'heroku-deflater', :group => :production
@@ -50,7 +52,6 @@ end
 gem 'devise'
 
 gem "font-awesome-rails", '~> 4.3.0.0'
-gem "therubyracer"
 gem "twitter-bootstrap-rails"
 gem 'newrelic_rpm'
 group :production do
