@@ -43,6 +43,8 @@ gem 'rack-cache'
 gem 'dalli'
 gem 'kgio'
 gem "memcachier"
+#for angular
+gem 'angularjs-rails'
 group :development, :test do
   gem 'byebug'
 end

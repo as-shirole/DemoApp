@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="myapplication" >
 <head>
   <title>My Resume</title>
   <%= favicon_link_tag 'resume-icon.ico'%>
@@ -8,8 +8,8 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-
-<%= yield %>
-
+<div>
+	<%= yield %>	
+</div>
 </body>
 </html>
